@@ -20,7 +20,6 @@ def myGradientDescentMomentum(fnon, jac, x0, tol, maxk, gam, *fnonargs):
     print(' k    f(xk)')
 
     xArray = []
-    lastDelta = 0
     delta = 0
     gamma = gam
 
